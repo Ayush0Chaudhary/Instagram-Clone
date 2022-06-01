@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+ 
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(13, 44, 86);
+  color: white;
+  list-style: none;
+
+}
+
+h2{
+  padding: 1pc;
+}
+
+.right{
+  margin-right: 10px;
+    padding: 18px;
+}
+
+.right ul{
+  list-style: none;
+}
+
+.right li{
+  border-radius: 10px;
+  width: 73px;
+  padding: 5px;
+  display: block;
+  float: left;
+  margin: 5px;
+  border: 2px solid white;
+  margin-top: -15px;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 3px 12px black;
+}
+
+input{
+  padding: 8px;
+  border: 2px solid rgb(13, 44, 86);
+  border-radius: 9px;
+}
+
+input:hover{
+  padding: 10px;
+  border: 2px solid rgb(47, 87, 142);
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#signUpEmail{
+  display: block;
+  float: left;
+  margin-left: 675px;
+}
+
+#signUpPassword{
+  display: block;
+  float: left;
+  margin-left: -183px;
+  margin-top: 41px;
+}
+
+button{
+  border-radius: 7px;
+  padding: 5px;
+  /* margin-left: -853px;
+  margin-top: 96px; */
+}
+
+.App h4{
+  margin-top: 17px;
+}
+

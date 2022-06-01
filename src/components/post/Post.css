@@ -1,0 +1,38 @@
+.Post {
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 7px;
+}
+
+.Post > * {
+    padding: 4px;
+    margin: 6px;
+}
+
+/* img{
+    display: inline;
+} */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button > * {
+    padding: 4px;
+    margin: 6px;
+}
+.button :hover {
+    /* padding: 4px;
+    margin: 6px; */
+    background-color: darkgray;
+}
+
+.comments-section {
+    background-color: #f5c5b2;
+}
+
+.comments {
+    background-color: #F7B094;
+    margin: 4px;
+}

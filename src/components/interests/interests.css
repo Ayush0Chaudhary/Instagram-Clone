@@ -1,0 +1,11 @@
+button{
+    border-radius: 7px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.selected{
+    background-color: aqua;
+    border-radius: 20px;
+}

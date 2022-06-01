@@ -1,0 +1,5 @@
+1. Refresh nullify the interest array taken from the getUserInterest()
+2. SignOut Button doesn't always works (requires Refresh)
+3. Modal photo not appearing
+4. 1 interest common in user and tobe uploADED POST not working
+5. When we select the button for 2nd post, the already highlighted button are not selected
