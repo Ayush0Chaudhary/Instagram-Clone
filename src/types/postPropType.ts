@@ -1,5 +1,8 @@
 type PostProps = {
-    id: string
+    id: string,
+    url: string,
+    capson:string,
+    username:string
 }
 
 export default PostProps;

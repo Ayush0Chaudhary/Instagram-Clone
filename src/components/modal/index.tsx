@@ -19,6 +19,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { logDOM } from "@testing-library/react";
 import { Name } from "../../pages/main";
 import { uniqueUserId } from "../../pages/main";
+import { Caption, setCaption } from "../post";
 
 var setDisplay: (arg0: string) => void;
 var setImage;
@@ -52,7 +53,7 @@ const Modal: React.FC = () => {
             console.log(url);
             setimageUrl(url);
             console.log(url);
-            UploadPost(url, uniqueUserId, Name,getInterests())
+            UploadPost(url, uniqueUserId, Name,getInterests(), Caption)
             //extracting the time of update of the post
             setvisible("none");
             getMetadata(ref(storage, folderName))
@@ -120,7 +121,7 @@ const Modal: React.FC = () => {
         />
         <img src={image} alt="Your Image" id="post-image" />
         <div id="image">
-          <input type="text" placeholder="Caption" />
+          <input type="text" placeholder="Caption" onChange={(e)=>{setCaption(e.target.value)}} />
         </div>
         <div id="tags-1">{allTags.slice(0, 5)}</div>
         <div id="tags-2">{allTags.slice(5, 10)}</div>

@@ -7,10 +7,11 @@ import InputField from "../InputField";
 import "./Post.css";
 import { urlArray } from "../../pages/main";
 
-let setSrc:any , setCaption;
+let setSrc:any , setCaption:any;
+let Caption : string;
 
 const Post: React.FC<PostProps> = (props: PostProps) => {
-    const {id} = props;
+    const {id, username, url, capson} = props;
     let commentsFetched = ["comment-1-test"]; {/* array containing all comments of a post. Taken for test purpose, iske alawa kuch or bhi ho sakta h */}
     let commentComponents = commentsFetched.map((comment)=>{
         return(
@@ -23,11 +24,13 @@ const Post: React.FC<PostProps> = (props: PostProps) => {
     const [caption, setcaption] = useState("Default Caption");
     setSrc = setsrc;
     setCaption = setcaption;
+    Caption = caption;
     return(
         <div id={id} className="Post">
             {/* TODO fetch data and set */}
-            <img src={src} alt="Post Pic" />
-            <div id="post-caption">{caption}</div>
+            <div id="username">{username}</div>
+            <img src={url} alt="Post Pic" />
+            <div id="post-caption">{capson}</div>
             {/* 3 buttons in a horizontal list */}
             <div id="buttons" className="buttons">
                 <div className="button">
@@ -61,4 +64,4 @@ const Post: React.FC<PostProps> = (props: PostProps) => {
 }
 
 export default Post;
-export {setSrc, setCaption}
+export {setSrc, setCaption, Caption}

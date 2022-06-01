@@ -85,7 +85,7 @@ async function signUp(email, password, username, interests) {
   });
 }
 
-async function UploadPost(url2, uid2, username2, interest){
+async function UploadPost(url2, uid2, username2, interest, caption){
   console.log(interest);
 
   interest.map((intert) => {
@@ -94,6 +94,7 @@ async function UploadPost(url2, uid2, username2, interest){
       URL: url2,
       UID: uid2,
       USERNAME: username2,
+      CAPTION: caption
     }).then((u)=>{console.log(u);}).catch((e)=>{console.log(e);}); 
   })
 }
