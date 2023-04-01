@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Instagram Clone
+This is a simple Instagram clone built using TypeScript and Firebase for web development. It allows users to create an account, login, post photos, and like and comment on other users' posts.
+
+### Extra Feature
+Person can follow certain tags and implement his own feed. The decision of how his feed looks like will depend on the user
+
+## Features
+
+*User authentication*: Users can create an account and log in with their email and password or using their Google account.
+
+*Post creation*: Users can create posts by uploading photos and adding captions.
+
+*Post interaction*: Users can like and comment on other users' posts.
+
+*Profile page*: Users have a profile page that displays their posts and information.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,11 +54,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
@@ -65,6 +75,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
