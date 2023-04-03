@@ -1,5 +1,6 @@
 # Instagram Clone
-This is a simple Instagram clone built using TypeScript and Firebase for web development. It allows users to create an account, login, post photos, and like and comment on other users' posts.
+This is a simple Instagram clone built using TypeScript and Firebase for web development. It allows users to create an account, login, post photos, and like and comment on other users' posts.<br>
+![687474703a2f2f696d672e796f75747562652e636f6d2f76692f56425a44356c66766934552f302e6a7067](https://user-images.githubusercontent.com/95746190/229387767-0c3d1069-d5dc-49fe-a080-bd9a5c017f2b.jpeg)
 
 ### Extra Feature
 Person can follow certain tags and implement his own feed. The decision of how his feed looks like will depend on the user
